@@ -2,14 +2,14 @@ package com.BudgetMaster;
 
 import java.time.LocalDate;
 
-public class Spending {
+public class Expense {
     private String id;
     private String description;
     private double amount;
     private String category;
     private LocalDate date;
 
-    public Spending(String id, String description, double amount, String category, LocalDate date) {
+    public Expense(String id, String description, double amount, String category, LocalDate date) {
         this.id = id;
         this.description = description;
         this.amount = amount;

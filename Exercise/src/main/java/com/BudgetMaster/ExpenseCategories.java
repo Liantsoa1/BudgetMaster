@@ -1,10 +1,10 @@
 package com.BudgetMaster;
 
-public enum SpendingCategories {
+public enum ExpenseCategories {
     FOODS_AND_DINING,
     TRANSPORT,
     ENTERTAINMENT,
     PUBLIC_SERVICES,
-    OTHERS
+    OTHERS;
 }
 
